@@ -1,0 +1,11 @@
+/.DS_Store
+node_modules/
+env/
+venv/
+__pycache__/
+.vscode/
+*.log
+*.pyc
+/.parcel-cache/
+dist/
+/.sass-cache/

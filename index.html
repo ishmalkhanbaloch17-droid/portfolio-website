@@ -4,7 +4,15 @@
     <title>Ishmal Khan — Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    <meta name="description" content="Ishmal Khan — Mathematics undergraduate, Data Analyst and Financial Modeling enthusiast. Portfolios, projects and contact information.">
+    <meta name="keywords" content="Ishmal Khan, Data Analyst, Mathematics, Financial Modeling, Python, SQL, Portfolio">
+    <meta property="og:title" content="Ishmal Khan — Portfolio">
+    <meta property="og:description" content="Mathematics undergraduate and data analyst showcasing projects in data analysis, visualization and financial modeling.">
+    <meta property="og:image" content="images/ishmal-profile.opt.jpg">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#0d6efd">
+    <link rel="icon" href="images/ishmal-profile.opt.jpg" type="image/jpeg">
+    <link rel="canonical" href="https://<your-domain-or-username>/<repo-name>/">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
@@ -103,11 +111,18 @@
   #home-section img { max-width: 100%; height: auto; }
 }
 
+.skip-link{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden}
+.skip-link:focus{position:static;left:auto;width:auto;height:auto;padding:8px 12px;background:#0d6efd;color:#fff;border-radius:4px;z-index:9999}
+
+.profile-img{max-width:100%;height:auto;display:block}
+
 </style>
 
+<script type="application/ld+json">{ "@context": "https://schema.org", "@type": "Person", "name": "Ishmal Khan", "url": "https://<your-domain-or-username>/<repo-name>/", "sameAs": ["https://www.linkedin.com/in/ishmal-khan-a6879b2b1"], "jobTitle": "Mathematics Undergraduate, Data Analyst", "worksFor": { "@type": "CollegeOrUniversity", "name": "Bahauddin Zakariya University" } }</script>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <a class="skip-link" href="#home-section">Skip to main content</a>
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
     <div class="container">
       <a class="navbar-brand" href="index.html">Ishmal Khan</a>
@@ -122,7 +137,7 @@
           <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
           <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
           <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-          <li class="nav-item"><a href="https://www.linkedin.com/in/ishmal-khan-a6879b2b1" class="nav-link" target="_blank" rel="noopener"><span class="icon-linkedin"></span></a></li>
+          <li class="nav-item"><a href="https://www.linkedin.com/in/ishmal-khan-a6879b2b1" class="nav-link" target="_blank" rel="noopener" aria-label="Ishmal Khan on LinkedIn"><span class="icon-linkedin" aria-hidden="true"></span></a></li>
         </ul>
       </div>
     </div>
@@ -130,7 +145,7 @@
 
   <section id="home-section" class="hero">
     <div class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image: url('images/bg_1.jpg');">
+      <div class="slider-item" style="background-image: url('images/bg_1.opt.jpg');">
         <div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center flex-column flex-md-row" data-scrollax-parent="true">
@@ -156,14 +171,17 @@
 
             <!-- Image Column -->
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-              <img src="images/ishmal-profile.png" alt="Ishmal Khan - Profile" class="img-fluid profile-img" style="display:block;margin:0 auto;">
+              <picture>
+                <source srcset="images/ishmal-profile.opt.webp" type="image/webp">
+                <img src="images/ishmal-profile.opt.jpg" alt="Ishmal Khan - Profile" class="img-fluid profile-img" style="display:block;margin:0 auto;" loading="lazy">
+              </picture>
             </div>
 
           </div>
         </div>
       </div>
 
-      <div class="slider-item" style="background-image: url('images/bg_2.png');">
+      <div class="slider-item" style="background-image: url('images/bg_2.opt.jpg');">
         <div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center flex-column flex-md-row" data-scrollax-parent="true">
@@ -189,14 +207,17 @@
 
             <!-- Image Column -->
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-              <img src="images/ishmal-profile.png" alt="Ishmal Khan - Profile" class="img-fluid profile-img" style="display:block;margin:0 auto;">
+              <picture>
+                <source srcset="images/ishmal-profile.opt.webp" type="image/webp">
+                <img src="images/ishmal-profile.opt.jpg" alt="Ishmal Khan - Profile" class="img-fluid profile-img" style="display:block;margin:0 auto;" loading="lazy">
+              </picture>
             </div>
 
           </div>
         </div>
       </div>
 
-      <div class="slider-item" style="background-image: url('images/bg_4.png');">
+      <div class="slider-item" style="background-image: url('images/bg_4.opt.jpg');">
         <div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center flex-column flex-md-row" data-scrollax-parent="true">
@@ -222,7 +243,10 @@
 
             <!-- Image Column -->
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-              <img src="images/ishmal-profile.png" alt="Ishmal Khan - Profile" class="img-fluid profile-img" style="display:block;margin:0 auto;">
+              <picture>
+                <source srcset="images/ishmal-profile.opt.webp" type="image/webp">
+                <img src="images/ishmal-profile.opt.jpg" alt="Ishmal Khan - Profile" class="img-fluid profile-img" style="display:block;margin:0 auto;" loading="lazy">
+              </picture>
             </div>
 
           </div>
@@ -274,7 +298,10 @@
               <div class="row mb-4">
                 <div class="col-md-12 text-center">
                   <div class="about-img text-center">
-                    <img src="images/ishmal-profile.png" class="img-fluid b-shadow-a profile-img" alt="Ishmal Khan" style="display:inline-block;">
+                    <picture>
+                    <source srcset="images/ishmal-profile.opt.webp" type="image/webp">
+                    <img src="images/ishmal-profile.opt.jpg" class="img-fluid b-shadow-a profile-img" alt="Ishmal Khan" style="display:inline-block;" loading="lazy">
+                  </picture>
                   </div>
                 </div>
               </div>
@@ -510,7 +537,7 @@
         <div class="row">
           <div class="col-md-4 ftco-animate">
             <div class="project-entry zoom-effect">
-              <a href="#" class="img" style="background-image: url('images/bg_1.jpg'); height:220px; display:block; background-size:cover;"></a>
+              <a href="#" class="img" style="background-image: url('images/bg_1.opt.jpg'); height:220px; display:block; background-size:cover;"></a>
               <div class="text p-3">
                 <h3><a href="#">Stock Price Forecasting</a></h3>
                 <span>Time-series forecasting using ARIMA and Prophet; visualizations in Plotly</span>
@@ -520,7 +547,7 @@
 
           <div class="col-md-4 ftco-animate">
             <div class="project-entry zoom-effect">
-              <a href="#" class="img" style="background-image: url('images/bg_2.png'); height:220px; display:block; background-size:cover;"></a>
+              <a href="#" class="img" style="background-image: url('images/bg_2.opt.jpg'); height:220px; display:block; background-size:cover;"></a>
               <div class="text p-3">
                 <h3><a href="#">Financial Statement Valuation</a></h3>
                 <span>Ratio analysis and DCF valuation implemented in Excel and Python</span>
@@ -530,7 +557,7 @@
 
           <div class="col-md-4 ftco-animate">
             <div class="project-entry zoom-effect">
-              <a href="#" class="img" style="background-image: url('images/bg_4.png'); height:220px; display:block; background-size:cover;"></a>
+              <a href="#" class="img" style="background-image: url('images/bg_4.opt.jpg'); height:220px; display:block; background-size:cover;"></a>
               <div class="text p-3">
                 <h3><a href="#">Interactive Dashboards</a></h3>
                 <span>Interactive dashboards using Plotly Dash / Power BI for exploratory analysis</span>
@@ -575,13 +602,13 @@
 			<br>
 			<div class="row justify-content-center">
 				<div class="col-md-7 ftco-animate text-center">
-					<h2>Have a<span> Question / Suggestion / Idea?  </span> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__X-mIHBUNjBTUE0xRkg3QkY3QTgwMzROUlM0TEpQTS4u" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+					<h2>Have a<span> Question / Suggestion / Idea?  </span> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__X-mIHBUNjBTUE0xRkg3QkY3QTgwMzROUlM0TEpQTS4u" class="btn btn-primary py-3 px-5" role="button" aria-label="Open contact form">Open Contact Form</a> </h2>
 				</div>
 			</div>
 				<br>
 					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
 					  <li class="ftco-animate normal-txt">Find me on  </li>
-				  <li class="ftco-animate"><a href="https://www.linkedin.com/in/ishmal-khan-a6879b2b1" target="_blank" rel="noopener"><span class="icon-linkedin"></span></a></li>  
+				  <li class="ftco-animate"><a href="https://www.linkedin.com/in/ishmal-khan-a6879b2b1" target="_blank" rel="noopener" aria-label="Ishmal Khan on LinkedIn"><span class="icon-linkedin" aria-hidden="true"></span></a></li>  
 					  <!-- <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-twitter"></span></a></li>
 				      <li class="ftco-animate"><a href="https://www.instagram.com/rishabhnmishra/"><span class="icon-instagram"></span></a></li> -->
 					</ul>
