@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Shagufta Pathan Portfolio</title>
+    <title>Ishmal Khan — Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.cs">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -58,19 +58,17 @@
 
 
 /* Animation styles */
-#typing-animation {
+.typing-animation {
   position: relative;
   font-size: 30px;
   font-weight: bold;
   color: rgb(255, 255, 255);
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 3s steps(20, end) infinite;
 }
 
-#typing-animation:before {
+.typing-animation:before {
   content: "";
-  /* position: absolute; */
   top: 0;
   left: 0;
   width: 0;
@@ -80,23 +78,14 @@
 }
 
 @keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+  from { width: 0; }
+  to { width: 100%; }
 }
 
 @keyframes typing-cursor {
-  from {
-    width: 5px;
-  }
-  to {
-    width: 0;
-  }
+  from { width: 5px; }
+  to { width: 0; }
 }
-
 
 /* project image zoom effect */
 
@@ -109,25 +98,17 @@
   transform: scale(1.1);
 }
 
+@media (max-width: 767.98px) {
+  #home-section .text { margin-bottom: 1.5rem; }
+  #home-section img { max-width: 100%; height: auto; }
+}
 
-<head>
-  <style>
-    @media (max-width: 767.98px) {
-      #home-section .text {
-        margin-bottom: 1.5rem;
-      }
-      #home-section img {
-        max-width: 100%;
-        height: auto;
-      }
-    }
-  </style>
-</head>
+</style>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Shagufta Pathan</a>
+      <a class="navbar-brand" href="index.html">Ishmal Khan</a>
       <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
         data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
@@ -138,8 +119,8 @@
           <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
           <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
           <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
           <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+          <li class="nav-item"><a href="https://www.linkedin.com/in/ishmal-khan-a6879b2b1" class="nav-link" target="_blank" rel="noopener"><span class="icon-linkedin"></span></a></li>
         </ul>
       </div>
     </div>
@@ -147,7 +128,7 @@
 
   <section id="home-section" class="hero">
     <div class="home-slider owl-carousel">
-      <div class="slider-item">
+      <div class="slider-item" style="background-image: url('images/bg_1.jpg');">
         <div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center flex-column flex-md-row" data-scrollax-parent="true">
@@ -156,24 +137,90 @@
             <div class="col-12 col-md-6 d-flex align-items-center ftco-animate mb-4 mb-md-0">
               <div class="text text-center text-md-left w-100">
                 <span class="subheading">Hello!</span>
-                <h1 class="mb-4 mt-3">I'm <span>Shagufta Pathan</span></h1>
+                <h1 class="mb-4 mt-3">I'm <span>Ishmal Khan</span></h1>
 
                 <!-- Typing animation -->
-                <span id="typing-animation"></span>
+                <span id="typing-animation" class="typing-animation"></span>
 
-                <br><br>
-                <h2>Data Analyst</h2>
+                <br>
+                <h2 class="mb-0">Mathematics Undergraduate | Data Analyst | Financial Modeling Enthusiast</h2>
+                <p class="mt-3"><small>Bahauddin Zakariya University (BZU) — 7th Semester</small></p>
                 <br>
                 <p>
-                  <a href="https://www.linkedin.com/in/shagufta-pathan-sp48/" class="btn btn-primary py-3 px-4">LinkedIn</a>
-                  <a href="https://github.com/ShaguftaPathan" class="btn btn-white btn-outline-white py-3 px-4">Github</a>
+                  <a href="https://www.linkedin.com/in/ishmal-khan-a6879b2b1" class="btn btn-primary py-3 px-4" target="_blank" rel="noopener">LinkedIn</a>
                 </p>
               </div>
             </div>
 
             <!-- Image Column -->
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-              <img src="images/sp_1a.png" alt="Profile" class="img-fluid" style="max-width: 450px; border-radius: 10px;">
+              <img src="images/ishmal-profile.png" alt="Ishmal Khan - Profile" class="img-fluid profile-img" style="display:block;margin:0 auto;">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item" style="background-image: url('images/bg_2.png');">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-center flex-column flex-md-row" data-scrollax-parent="true">
+
+            <!-- Text Column -->
+            <div class="col-12 col-md-6 d-flex align-items-center ftco-animate mb-4 mb-md-0">
+              <div class="text text-center text-md-left w-100">
+                <span class="subheading">Hello!</span>
+                <h1 class="mb-4 mt-3">I'm <span>Ishmal Khan</span></h1>
+
+                <!-- Typing animation -->
+                <span class="typing-animation"></span>
+
+                <br>
+                <h2 class="mb-0">Mathematics Undergraduate | Data Analyst | Financial Modeling Enthusiast</h2>
+                <p class="mt-3"><small>Bahauddin Zakariya University (BZU) — 7th Semester</small></p>
+                <br>
+                <p>
+                  <a href="https://www.linkedin.com/in/ishmal-khan-a6879b2b1" class="btn btn-primary py-3 px-4" target="_blank" rel="noopener">LinkedIn</a>
+                </p>
+              </div>
+            </div>
+
+            <!-- Image Column -->
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+              <img src="images/ishmal-profile.png" alt="Ishmal Khan - Profile" class="img-fluid profile-img" style="display:block;margin:0 auto;">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item" style="background-image: url('images/bg_4.png');">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-center flex-column flex-md-row" data-scrollax-parent="true">
+
+            <!-- Text Column -->
+            <div class="col-12 col-md-6 d-flex align-items-center ftco-animate mb-4 mb-md-0">
+              <div class="text text-center text-md-left w-100">
+                <span class="subheading">Hello!</span>
+                <h1 class="mb-4 mt-3">I'm <span>Ishmal Khan</span></h1>
+
+                <!-- Typing animation -->
+                <span class="typing-animation"></span>
+
+                <br>
+                <h2 class="mb-0">Mathematics Undergraduate | Data Analyst | Financial Modeling Enthusiast</h2>
+                <p class="mt-3"><small>Bahauddin Zakariya University (BZU) — 7th Semester</small></p>
+                <br>
+                <p>
+                  <a href="https://www.linkedin.com/in/ishmal-khan-a6879b2b1" class="btn btn-primary py-3 px-4" target="_blank" rel="noopener">LinkedIn</a>
+                </p>
+              </div>
+            </div>
+
+            <!-- Image Column -->
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+              <img src="images/ishmal-profile.png" alt="Ishmal Khan - Profile" class="img-fluid profile-img" style="display:block;margin:0 auto;">
             </div>
 
           </div>
@@ -182,26 +229,33 @@
     </div>
 
     <script>
-      const typingAnimationElement = document.getElementById('typing-animation');
       const typingTexts = [
-        'Data Analyst  ',
-        'Business Analyst  ',
-        'Ex-Medical Faculty   ',
+        'Mathematics Undergraduate',
+        'Data Analyst',
+        'Financial Modeling Enthusiast'
       ];
 
-      function playTypingAnimation(text) {
-        for (let i = 0; i < text.length; i++) {
-          setTimeout(() => {
-            typingAnimationElement.textContent += text[i];
-          }, i * 200);
+      function startTyping(el, texts, index = 0) {
+        let charIndex = 0;
+        function type() {
+          if (charIndex < texts[index].length) {
+            el.textContent += texts[index].charAt(charIndex++);
+            setTimeout(type, 100);
+          } else {
+            setTimeout(() => {
+              el.textContent = '';
+              index = (index + 1) % texts.length;
+              charIndex = 0;
+              type();
+            }, 1000);
+          }
         }
-        setTimeout(() => {
-          typingAnimationElement.textContent = '';
-          playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-        }, text.length * 200 + 1000);
+        type();
       }
 
-      playTypingAnimation(typingTexts[0]);
+      document.querySelectorAll('.typing-animation').forEach((el) => {
+        startTyping(el, typingTexts, 0);
+      });
     </script>
   </section>
 
@@ -217,8 +271,8 @@
               <!-- Profile image above skills -->
               <div class="row mb-4">
                 <div class="col-md-12 text-center">
-                  <div class="about-img">
-                    <img src="images/sp_2.png" class="img-fluid rounded b-shadow-a" alt="Shagufta Pathan"  style="max-width: 180px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                  <div class="about-img text-center">
+                    <img src="images/ishmal-profile.png" class="img-fluid b-shadow-a profile-img" alt="Ishmal Khan" style="display:inline-block;">
                   </div>
                 </div>
               </div>
@@ -227,16 +281,46 @@
               <div class="skill-mf">
                 <p class="title-s">Skills</p>
 
-                <p><strong>Data Visualization</strong></p>
-                <div class="d-flex justify-content-between"><span>Power BI</span><span>5</span></div>
-                <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div>
+                <p><strong>Programming Languages</strong></p>
+                <ul class="skill-list">
+                  <li>Python</li>
+                  <li>SQL</li>
+                  <li>R</li>
+                  <li>MATLAB</li>
+                </ul>
 
-                <div class="d-flex justify-content-between"><span>Tableau</span><span>4</span></div>
-                <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div>
+                <p><strong>Data Analysis &amp; Visualization</strong></p>
+                <ul class="skill-list">
+                  <li>Pandas</li>
+                  <li>NumPy</li>
+                  <li>Matplotlib</li>
+                  <li>Seaborn</li>
+                  <li>Plotly</li>
+                </ul>
 
-                <p><strong>Data Analytics</strong></p>
-                <div class="d-flex justify-content-between"><span>Excel</span><span>5</span></div>
-                <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div>
+                <p><strong>Machine Learning &amp; Statistics</strong></p>
+                <ul class="skill-list">
+                  <li>Predictive Modeling</li>
+                  <li>Hypothesis Testing</li>
+                  <li>Statistical Analysis</li>
+                  <li>Data Mining</li>
+                </ul>
+
+                <p><strong>Tools</strong></p>
+                <ul class="skill-list">
+                  <li>Jupyter Notebook</li>
+                  <li>Excel</li>
+                  <li>PowerPoint</li>
+                  <li>Word</li>
+                  <li>Canva</li>
+                </ul>
+
+                <p><strong>Finance</strong></p>
+                <ul class="skill-list">
+                  <li>Financial Modeling</li>
+                  <li>Financial Analysis</li>
+                </ul>
+              </div>
 
                 <div class="d-flex justify-content-between"><span>SQL</span><span>4</span></div>
                 <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div>
@@ -263,18 +347,15 @@
               <h1 class="big">About</h1>
               <h2 class="mb-4">About Me</h2>
 
-              <p>Data detective who turns messy data into clean insights, boring reports into sleek dashboards, and “we don’t know why” into “here’s exactly why.” Fluent in Excel, Power BI, SQL, and Python—basically, I speak fluent chart. Whether it's healthcare, education, logistics, or e-commerce, I’ve untangled data knots across them all.</p>
-
-              <p>I love spotting patterns, optimizing workflows, and making KPIs behave. Always learning. Always caffeinated. Always chasing cleaner data.</p>
+              <p>I am Ishmal Khan, a 7th-semester Mathematics undergraduate at Bahauddin Zakariya University (BZU), with strong technical expertise in data analysis and financial modeling. I have hands-on experience in Python, SQL, R, and MATLAB, and I actively use Jupyter Notebook for interactive data analysis. My skill set includes Pandas, NumPy, Matplotlib, Seaborn, and Plotly for data manipulation and visualization. I am also proficient in Microsoft Excel, Word, and PowerPoint for financial modeling and professional reporting, along with Canva for visual design. My analytical abilities include statistical analysis, hypothesis testing, predictive modeling, machine learning algorithms, data mining, and financial analysis, all built on a strong mathematical foundation.</p>
 
               <ul class="about-info mt-4 px-md-0 px-2">
-                <li class="d-flex"><span>Profile:</span> <span>Data Analytics &amp; Business Analytics</span></li>
-                <li class="d-flex"><span>Domain:</span> <span>Healthcare, Education, Supply Chain, Retail, Ecommerce, &amp; Digital Marketing</span></li>
-                <li class="d-flex"><span>Education:</span> <span>BS Medical Technology, MS Microbiology</span></li>
-                <li class="d-flex"><span>Language:</span> <span>English, Hindi</span></li>
-                <li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI, Excel, Google Analytics &amp; Tableau</span></li>
-                <li class="d-flex"><span>Programming Languages:</span> <span>Python, R</span></li>
-                <li class="d-flex"><span>Other Tools:</span> <span>SQL, Azure, AWS, Snowflake, Jira, Confluence</span></li>
+                <li class="d-flex"><span>Name:</span> <span>Ishmal Khan</span></li>
+                <li class="d-flex"><span>Profile:</span> <span>Mathematics Undergraduate | Data Analyst | Financial Modeling Enthusiast</span></li>
+                <li class="d-flex"><span>University:</span> <span>Bahauddin Zakariya University (BZU)</span></li>
+                <li class="d-flex"><span>Semester:</span> <span>7th Semester</span></li>
+                <li class="d-flex"><span>Languages:</span> <span>English</span></li>
+                <li class="d-flex"><span>Technical Skills:</span> <span>Python, SQL, R, MATLAB, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Excel, Jupyter Notebook</span></li>
               </ul>
             </div>
           </div>
@@ -287,7 +368,7 @@
               </p>
               <p>
                 <!-- <a href="https://shaguftapathan.github.io/Dashboards/" class="btn btn-primary py-3 px-3">Dashboards</a> -->
-                <a href="https://www.linkedin.com/in/shagufta-pathan-sp48/" class="btn btn-white btn-outline-white py-3 px-3">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/ishmal-khan-a6879b2b1" class="btn btn-white btn-outline-white py-3 px-3" target="_blank" rel="noopener">LinkedIn</a>
               </p>
             </div>
           </div>
@@ -396,7 +477,7 @@
     </div>
   </div>
 </section>
-<section class="ftco-section ftco-no-pb" id="resume-section"></section>
+<section class="ftco-section ftco-no-pb" id="resume-section">
   <div class="container">
     <div class="row justify-content-center pb-5">
       <div class="col-md-10 heading-section text-center ftco-animate">
@@ -413,7 +494,6 @@
     </div>
   </div>
 </section>
-   
 
     <section class="ftco-section" id="project-section">
       <div class="container">
@@ -421,230 +501,17 @@
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Projects</h1>
             <h2 class="mb-4">Projects</h2>
-            <p>Below are the Data Analytics projects I have worked on, using Python, Power BI & Tableau.</p>
+            <p class="lead text-center">None.</p>
           </div>
         </div>
-            <!-- Buttons Below Heading -->
-    <div class="row justify-content-center mb-4">
-      <div class="col-md-10 text-center">
-                <br>
-                <p>
-                <a href="https://shaguftapathan.github.io/Dashboards/" class="btn btn-primary py-3 px-4 mx-2 mb-3 mb-md-0">Dashboards</a>
-        <a href="https://shaguftapathan.github.io/Data_Analytics_All_Projects/" class="btn btn-primary py-3 px-4 mx-2">Client Projects</a>
-                </p>
       </div>
-    </div>
-      <div class="row">
-      <div class="col-12" style="height: 30px;"></div> <!-- Adjust height as needed -->
-    </div>
-
-        <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://shaguftapathan.github.io/PowerBI_Dashboard_e-Commerce_Client/" class="block-20 zoom-effect" style="background-image: url('images/proj-1.png');">
-              </a>
-              <div class="text mt-3 float-right d-block"></a>
-                <h3 class="heading"><a href="https://shaguftapathan.github.io/PowerBI_Dashboard_e-Commerce_Client/">E-commerce Data Analysis - Power BI</a></h3>
-                <p>Built a Power BI dashboard to track KPIs across sales, inventory, and customer service. Answered business questions using DAX and visuals for data-driven decision-making.</p>
-              </div>
-          </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-  <div class="blog-entry justify-content-end">
-    <a href="https://shaguftapathan.github.io/Pyhton_Sentiment_Analyis_Cust_Segmentation/" 
-       class="block-20 zoom-effect" style="background-image: url('images/proj-5\ \(2\).png');">
-    </a>
-    <div class="text mt-3 float-right d-block">
-      <h3 class="heading">
-        <a href="https://shaguftapathan.github.io/Pyhton_Sentiment_Analyis_Cust_Segmentation/">
-          Customer Behavior Analysis: Sentiment + Segmentation using Python
-        </a>
-      </h3>
-      <p>
-        Used VADER and RFM-KMeans in Python to analyze review sentiments and segment customers. Delivered actionable insights for targeted engagement.
-      </p>
-    </div>
-  </div>
-</div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry">
-              <a href="https://shaguftapathan.github.io/Pyhton_EDA_Logistics_Shipments_Return/" class="block-20 zoom-effect" style="background-image: url('images/proj-7.png');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://shaguftapathan.github.io/Pyhton_EDA_Logistics_Shipments_Return/">EDA for Logistics & Shipments Delay -Python</a></h3>
-                <p>Explored shipment delays using Python (Pandas, Seaborn) to identify key cost drivers and optimize shipping operations.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-	<br>
-		<!-- added justify-content-center to center align the last two projects -->
-		<div class="row d-flex">
-      <div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				 <a href="https://shaguftapathan.github.io/PowerBI_Dashboard_Real_Estate//" class="block-20 zoom-effect" style="background-image: url('images/proj_6.png');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://shaguftapathan.github.io/PowerBI_Dashboard_Real_Estate/">Real Estate Sales Analysis - Power BI</a></h3>
-                <p>Developed interactive Power BI dashboard to monitor patient metrics, evaluate employee performance, and analyze insurance claims data.</p>
-              </div>
-               </div>
-			</div> 
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://shaguftapathan.github.io/Tableau_Sales_Dashboard_Retail-Supply_Chain/" class="block-20 zoom-effect" style="background-image: url('images/proj_2.png');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://shaguftapathan.github.io/Tableau_Sales_Dashboard_Retail-Supply_Chain/">Supply Chain Sales Analysis - Tableau</a></h3>
-                <p>Built a comprehensive Power BI dashboard to analyze real estate sales performance across multiple cities. Tracked KPIs such as revenue, gross profit, agent productivity, and deal conversion rates. Delivered actionable insights that empowered strategic decisions and improved team accountability.</p>
-              </div>
-			  </div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-  <div class="blog-entry justify-content-end">
-    <a href="https://shaguftapathan.github.io/PowerBI_Logistic_Shipments_Delay_Insights/" class="block-20 zoom-effect" style="background-image: url('images/proj_8.png');">
-    </a>
-    <div class="text mt-3 float-right d-block">
-
-      <h3 class="heading"><a href="https://shaguftapathan.github.io/PowerBI_Logistic_Shipments_Delay_Insights/">Logistics & Shipments- Delay, Customer & Opeartion Metrics - Power BI</a></h3>
-      <p>Built a Power BI dashboard to analyze shipment delays, track returns, and visualize cost-to-revenue trends across regions, carriers, and modes.</p>
-    </div>
-</div>
-		 </div>
-	  </div>
     </section>
+   
 
-	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
-      <div class="container">
-		<div class="row d-md-flex align-items-center">
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="27">0</strong>
-                <span>Clients Served</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="90">0</strong>
-                <span>Dashboards</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="45">0</strong>
-                <span>Projects</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="1500">0</strong>
-                <span>Mentored Students</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-	
-	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_4.png)">
-			<!-- <div class="container"> -->
-				<div class="row justify-content-center">
-					<div class="col-md-7 ftco-animate text-center">
-						<h2>More projects on<span> Github  </span> </h2>
-						<!-- <div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4> -->
-						<br>
-						<p><a href="https://github.com/ShaguftaPathan" class="btn btn-primary py-3 px-5">GitHub</a></p>
-						</div>
-					</div>
-				</div>
-			<!-- </div> -->
-		</div>
-	</section>
-<br>
-  <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-team-says" style="background-color: #000; color: #fff; font-size: 0.95rem;">
-  <div class="container py-5">
-    <div class="row justify-content-center mb-4">
-      <div class="col-md-8 text-center heading-section ftco-animate">
-        <h2 class="mb-4" style="font-size: 1.8rem; color: white;">
-          What My Team Says <span style="color: #f1c40f;">About Me</span>
-        </h2>
-      </div>
-    </div>
 
-    <div class="row d-md-flex align-items-stretch">
-      <!-- Testimonial 1 -->
-      <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate mb-4">
-        <div class="block-18 shadow p-4 rounded text-center" style="background-color: #111;">
-          <div class="text" style="font-weight: 400 !important; color: #ddd !important;">
-            <p>"I had the privilege of working with Shagufta, an accomplished and results-oriented Data Analyst. Her professionalism, punctuality, and structured approach were evident in every project. She’s a dependable team player and a true asset."</p>
-            <p class="mt-3 mb-0" style="font-size: 0.9rem; font-weight: 400 !important; color: #ccc !important;">
-              <a href="https://www.linkedin.com/in/mohammedtahirpatel" target="_blank" style="color: #f1c40f; font-weight: 400 !important; text-decoration: none;">MohammedTahir Patel</a><br>
-              <small style="color: #aaa; font-weight: 400 !important;">Websitevala, WordPress Developer</small>
-            </p>
-          </div>
-        </div>
-      </div>
 
-      <!-- Testimonial 2 -->
-      <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate mb-4">
-        <div class="block-18 shadow p-4 rounded text-center" style="background-color: #111;">
-          <div class="text" style="font-weight: 400 !important; color: #ddd !important;">
-            <p>"Shagufta is the most inspiring, intelligent, and courageous person I’ve worked with. From guiding students to leading teams, her creative leadership and positive mindset make her a true gem."</p>
-            <p class="mt-3 mb-0" style="font-size: 0.9rem; font-weight: 400 !important; color: #ccc !important;">
-              <a href="https://www.linkedin.com/in/arpit-panchal-50170193" target="_blank" style="color: #f1c40f; font-weight: 400 !important; text-decoration: none;">Arpit Panchal</a><br>
-              <small style="color: #aaa; font-weight: 400 !important;">Area Manager, ICICI Prudential Life</small>
-            </p>
-          </div>
-        </div>
-      </div>
 
-      <!-- Testimonial 3 -->
-      <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate mb-4">
-        <div class="block-18 shadow p-4 rounded text-center" style="background-color: #111;">
-          <div class="text" style="font-weight: 400 !important; color: #ddd !important;">
-            <p>"Shagufta’s adaptability, integrity, and leadership are unmatched. She led our department with dedication and delivered results that consistently exceeded expectations."</p>
-            <p class="mt-3 mb-0" style="font-size: 0.9rem; font-weight: 400 !important; color: #ccc !important;">
-              <a href="https://www.linkedin.com/in/anwesha-purkayastha-6897b2126/" target="_blank" style="color: #f1c40f; font-weight: 400 !important; text-decoration: none;">Anwesha Purkayastha</a><br>
-              <small style="color: #aaa; font-weight: 400 !important;">Chemistry Lecturer, Bakliwal Tutorials</small>
-            </p>
-          </div>
-        </div>
-      </div>
 
-      <!-- Testimonial 4 -->
-      <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate mb-4">
-        <div class="block-18 shadow p-4 rounded text-center" style="background-color: #111;">
-          <div class="text" style="font-weight: 400 !important; color: #ddd !important;">
-            <p>"Shagufta is an intellectual powerhouse. She blends curiosity with action, stays approachable, and always uplifts the team. A pleasure to work with and a top-tier talent."</p>
-            <p class="mt-3 mb-0" style="font-size: 0.9rem; font-weight: 400 !important; color: #ccc !important;">
-              <a href="https://www.linkedin.com/in/abhishek-chaturvedi-zo/" target="_blank" style="color: #f1c40f; font-weight: 400 !important; text-decoration: none;">Abhishek Chaturvedi</a><br>
-              <small style="color: #aaa; font-weight: 400 !important;">Zoology Lecturer, Aakash Institute</small>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-    <!-- Button -->
-    <div class="row mt-1">
-      <div class="col text-center">
-        <a href="https://www.linkedin.com/in/shagufta-pathan-sp48/details/recommendations/?detailScreenTabIndex=0" target="_blank" class="btn btn-warning btn-lg" style="color: #000; font-weight: bold;">
-          View All Recommendations on LinkedIn
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
 
     <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
       <div class="container">
@@ -657,42 +524,17 @@
         </div>
 
         <div class="row d-flex contact-info mb-5 justify-content-center text-center">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<h3 class="mb-4">Address</h3>
-	            <p>New York, USA- 11375</p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://0101010101">+ 1 (551) 226-0021</a></p>
-	          </div>
-          </div>
+
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
           			<span class="icon-paper-plane"></span>
           		</div>
           		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">shagufta.pathan048@gmail.com</a></p>
+	            <p><a href="mailto:ishmalkhanbaloch17@gmail.com">ishmalkhanbaloch17@gmail.com</a></p>
 	          </div>
           </div>
-          <!-- <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
-          		</div>
-          		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="#">resumelink</a></p>
-	          </div>
-          </div> -->
+
 
 		  <div class="container">
 			<br>
@@ -705,7 +547,7 @@
 				<br>
 					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
 					  <li class="ftco-animate normal-txt">Find me on  </li>
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/shagufta-pathan-sp48/"><span class="icon-linkedin"></span></a></li>  
+				  <li class="ftco-animate"><a href="https://www.linkedin.com/in/ishmal-khan-a6879b2b1" target="_blank" rel="noopener"><span class="icon-linkedin"></span></a></li>  
 					  <!-- <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-twitter"></span></a></li>
 				      <li class="ftco-animate"><a href="https://www.instagram.com/rishabhnmishra/"><span class="icon-instagram"></span></a></li> -->
 					</ul>
