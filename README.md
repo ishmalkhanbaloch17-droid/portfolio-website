@@ -25,5 +25,4 @@ Next steps I can do when you confirm:
 1. Commit and push these changes to your repo and let the GitHub Pages workflow deploy the site.
 2. (Optional) Configure a custom domain or deploy to Netlify/Vercel if you prefer.
 3. Minify and bundle assets (CSS/JS) and add CI checks.
-
 Tell me whether to use the current `origin` remote and whether you have a custom domain to set; I'll commit and push the changes once you confirm.
