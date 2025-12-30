@@ -15,7 +15,7 @@ To deploy to GitHub Pages automatically:
 2. The workflow `.github/workflows/gh-pages.yml` will deploy `main` to the `gh-pages` branch on every push.
 3. In the repository Settings → Pages, set the source to the `gh-pages` branch (if needed). The site will be available at `https://<your-username>.github.io/<repo-name>/`.
 
-If you'd like, I can push the final commits and enable deployment to the existing remote `origin` — tell me to proceed and confirm you want to use the current `origin` remote (`https://github.com/ShaguftaPathan/Portfolio_Website.git`) or provide a different repo URL.
+If you'd like, I can push the final commits and enable deployment to the existing remote `origin` — tell me to proceed and confirm you want to use the current `origin` remote (`https://github.com/<your-username>/<repo-name>.git`) or provide a different repo URL.
 ## Recent improvements
 - Optimized large images (created `.opt.jpg` and `.webp` variants for background and profile images) to speed up page load.
 - Added basic SEO meta tags, Open Graph tags, `robots.txt` and `sitemap.xml`.

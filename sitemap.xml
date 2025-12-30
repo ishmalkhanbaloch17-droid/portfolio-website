@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Replace loc values with your full site URL after deployment -->
   <url>
-    <loc>https://<your-domain-or-username>/<repo-name>/</loc>
+    <loc>/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://<your-domain-or-username>/<repo-name>/journey.html</loc>
+    <loc>/journey.html</loc>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>
