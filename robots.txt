@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://<your-domain-or-username>/<repo-name>/sitemap.xml
+# Update the Sitemap to the absolute URL when you publish the site
+Sitemap: /sitemap.xml
