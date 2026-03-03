@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Update the Sitemap to the absolute URL when you publish the site
+Sitemap: /sitemap.xml
