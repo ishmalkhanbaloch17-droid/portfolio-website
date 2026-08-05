@@ -53,6 +53,36 @@
   margin-left: 10px;
 }
 
+.project-highlight {
+  border: 1px solid rgba(13, 110, 253, 0.16);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 24px 50px rgba(13, 110, 253, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-highlight:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 32px 65px rgba(13, 110, 253, 0.12);
+}
+.project-highlight .text {
+  background: #fff;
+}
+.project-highlight .text h3 a {
+  color: #0d6efd;
+  font-weight: 700;
+}
+.project-highlight .text span {
+  color: #495057;
+  font-size: 0.97rem;
+  line-height: 1.6;
+}
+.project-highlight .text .cta-btn {
+  margin-top: 18px;
+}
+.project-highlight .img {
+  min-height: 420px;
+  background-position: center;
+}
 
 /* Skills - modern, organized with proficiency badges */
 .skill-mf {
@@ -326,8 +356,8 @@
               <h1 class="mb-4 mt-3">I'm <span>Ishmal Khan</span></h1>
               <span id="typing-animation" class="typing-animation"></span>
               <br>
-              <h2 class="mb-0">Mathematics Undergraduate | Data Analyst | Financial Modeling Enthusiast</h2>
-              <p class="mt-3"><small>Bahauddin Zakariya University (BZU) — 8th Semester</small></p>
+              <h2 class="mb-0">Mathematics Graduate | Data Analyst | Financial Modeling Enthusiast</h2>
+              <p class="mt-3"><small>Bahauddin Zakariya University (BZU) — Graduated</small></p>
               <br>
               <p>
                 <a href="https://www.linkedin.com/in/ishmal-khan-a6879b2b1" class="btn btn-primary py-3 px-4" target="_blank" rel="noopener">LinkedIn</a>
@@ -354,8 +384,8 @@
               <h1 class="mb-4 mt-3">I'm <span>Ishmal Khan</span></h1>
               <span class="typing-animation"></span>
               <br>
-              <h2 class="mb-0">Mathematics Undergraduate | Data Analyst | Financial Modeling Enthusiast</h2>
-              <p class="mt-3"><small>Bahauddin Zakariya University (BZU) — 8th Semester</small></p>
+              <h2 class="mb-0">Mathematics Graduate | Data Analyst | Financial Modeling Enthusiast</h2>
+              <p class="mt-3"><small>Bahauddin Zakariya University (BZU) — Graduated</small></p>
               <br>
               <p>
                 <a href="https://www.linkedin.com/in/ishmal-khan-a6879b2b1" class="btn btn-primary py-3 px-4" target="_blank" rel="noopener">LinkedIn</a>
@@ -493,13 +523,12 @@
               <h1 class="big">About</h1>
               <h2 class="mb-4">About Me</h2>
 
-              <p>I am Ishmal Khan, an 8th-semester Mathematics undergraduate at Bahauddin Zakariya University (BZU), with strong technical expertise in data analysis and financial modeling. I have hands-on experience in Python, SQL, R, and MATLAB, and I actively use Jupyter Notebook for interactive data analysis. My skill set includes Pandas, NumPy, Matplotlib, Seaborn, and Plotly for data manipulation and visualization. I am also proficient in Microsoft Excel, Word, and PowerPoint for financial modeling and professional reporting, along with Canva for visual design. My analytical abilities include statistical analysis, hypothesis testing, predictive modeling, machine learning algorithms, data mining, and financial analysis, all built on a strong mathematical foundation.</p>
+              <p style="text-align: justify;">I am Ishmal Khan, a Mathematics Graduate at Bahauddin Zakariya University (BZU), with strong technical expertise in data analysis and financial modeling. I have hands-on experience in Python, SQL, R, and MATLAB, and I actively use Jupyter Notebook for interactive data analysis. My skill set includes Pandas, NumPy, Matplotlib, Seaborn, and Plotly for data manipulation and visualization. I am also proficient in Microsoft Excel, Word, and PowerPoint for financial modeling and professional reporting, along with Canva for visual design. My analytical abilities include statistical analysis, hypothesis testing, predictive modeling, machine learning algorithms, data mining, and financial analysis, all built on a strong mathematical foundation.</p>
 
               <ul class="about-info mt-4 px-md-0 px-2">
                 <li class="d-flex"><span style="color: white;">Name:</span> <span style="color: white;">Ishmal Khan</span></li>
                 <li class="d-flex"><span style="color: white;">Profile:</span> <span style="color: white;">Mathematics Undergraduate | Data Analyst | Financial Modeling Enthusiast</span></li>
                 <li class="d-flex"><span style="color: white;">University:</span> <span style="color: white;">Bahauddin Zakariya University (BZU)</span></li>
-                <li class="d-flex"><span style="color: white;">Semester:</span> <span style="color: white;">8th Semester</span></li>
                 <li class="d-flex"><span style="color: white;">Languages:</span> <span style="color: white;">English</span></li>
                 <li class="d-flex"><span style="color: white;">Technical Skills:</span> <span style="color: white;">Python, SQL, R, MATLAB, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Excel, Jupyter Notebook</span></li>
               </ul>
@@ -635,10 +664,10 @@
 			<div class="row">
     			<div class="col-md-6">
     				<div class="resume-wrap ftco-animate">
-                        <span class="date">Enrolled — 8th Semester</span>
-                        <h2>BSc (Mathematics) — In progress</h2>
+                        <span class="date">Graduated</span>
+                        <h2>BSc (Mathematics) — Completed</h2>
                         <span class="position">Bahauddin Zakariya University (BZU)</span>
-                        <p class="mt-4">Currently in 8th semester — coursework and projects focused on data analysis, deep learning, and financial modeling.</p>
+                        <p class="mt-4">Completed coursework and projects focused on data analysis, deep learning, and financial modeling.</p>
 
     			<div class="col-md-6">
     				<div class="resume-wrap ftco-animate">
@@ -671,6 +700,20 @@
   </div>
 </section>
 
+<section class="ftco-section ftco-no-pb" id="final-year-project-section">
+  <div class="container">
+    <div class="row justify-content-center pb-5">
+      <div class="col-md-10 heading-section text-center ftco-animate">
+        <h1 class="big big-2">Final Year Project</h1>
+        <h2 class="mb-4">Explore my capstone work in financial fraud detection</h2>
+        <a href="fraud-sense.html" class="btn btn-primary btn-lg">
+          View Final Year Project
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- CV display with download link -->
 <section class="ftco-section ftco-no-pb" id="cv-section">
@@ -678,8 +721,8 @@
     <div class="row justify-content-center pb-5">
       <div class="col-md-10 text-center ftco-animate">
         <!-- show the updated CV images (multiple pages) -->
-        <img src="assets/Ishmal_Khan_ATS_CV_page1.jpg" alt="Curriculum Vitae page 1" style="max-width:100%;height:auto;" />
-        <img src="assets/Ishmal_Khan_ATS_CV_page2.jpg" alt="Curriculum Vitae page 2" style="max-width:100%;height:auto;margin-top:1rem;" />
+        <img src="assets/Ishmal_Khan_ATS_CV_page1.jpg?v=2" alt="Curriculum Vitae page 1" style="max-width:100%;height:auto;" />
+        <img src="assets/Ishmal_Khan_ATS_CV_page2.jpg?v=2" alt="Curriculum Vitae page 2" style="max-width:100%;height:auto;margin-top:1rem;" />
         <!-- download button pointing to the current PDF -->
         <p class="mt-3">
           <a href="assets/Ishmal_Khan_ATS_CV.pdf" class="btn btn-primary" download>Download My CV</a>
@@ -707,7 +750,7 @@
               <h3 style="margin: 0 0 5px 0; color: #fff;">Bachelor of Science in Mathematics</h3>
               <p style="margin: 0; color: #00d4ff; font-weight: 600;">Bahauddin Zakariya University (BZU)</p>
             </div>
-            <span style="background: rgba(0,212,255,0.2); color: #00d4ff; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 600;">8th Semester (In Progress)</span>
+            <span style="background: rgba(0,212,255,0.2); color: #00d4ff; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 600;">Graduated</span>
           </div>
           <p style="color: rgba(255,255,255,0.8); margin-top: 12px; font-size: 0.95rem;">Focused on data analysis, deep learning, financial modeling, and quantitative methods with a strong mathematical foundation.</p>
         </div>
@@ -817,26 +860,28 @@
 
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">Selected Projects</h2>
-            <p class="lead text-center">A few reproducible projects showcasing data analysis and financial modeling.</p>
-          </div>
-        </div>
-
         <div class="row mb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
             <h2 class="mb-4">Final Year Project</h2>
             <p class="lead">Fraud Sense is my final year capstone project for financial fraud detection and decision support.</p>
           </div>
           <div class="col-md-10 mx-auto ftco-animate">
-            <div class="project-entry zoom-effect">
+            <div class="project-entry zoom-effect project-highlight">
               <a href="fraud-sense.html" class="img" style="background-image: url('images/fraud-sense.png'); height:420px; display:block; background-size:cover;"></a>
-              <div class="text p-3">
+              <div class="text p-4">
                 <h3><a href="fraud-sense.html">Fraud Sense</a></h3>
                 <span>Capstone project showcasing fraud detection insights, anomaly analysis, and real-world financial risk awareness.</span>
+                <p class="cta-btn"><a href="fraud-sense.html" class="btn btn-primary btn-sm">View Project</a></p>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Selected Projects</h2>
+            <p class="lead text-center">A few reproducible projects showcasing data analysis and financial modeling.</p>
           </div>
         </div>
 
